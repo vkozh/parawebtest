@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .contacts__item_phone {
+        background-image: url(../../../../images/phone.svg);
+        background-size: 22px 22px;
+        background-repeat: no-repeat;
+        width: 22px;
+        height: 22px;
+    }
+}
