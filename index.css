@@ -12,3 +12,10 @@
 
 @import url(./blocks/menu/menu.css);
 @import url(./blocks/menu/__item/menu__item.css);
+
+@import url(./blocks/socials/socials.css);
+@import url(./blocks/socials/__item/socials__item.css);
+@import url(./blocks/socials/__item/_tg/socials__item_tg.css);
+@import url(./blocks/socials/__item/_tg/socials__item_vk.css);
+@import url(./blocks/socials/__item/_tg/socials__item_tw.css);
+@import url(./blocks/socials/__item/_tg/socials__item_hb.css);

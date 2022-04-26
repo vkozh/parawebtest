@@ -1,0 +1,15 @@
+.socials {
+    display: flex;
+    margin: 30px 20px 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .socials {
+        order: 2;
+        justify-content: start;
+        margin: 0 0 30px 0;
+    }
+}

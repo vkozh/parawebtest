@@ -5,10 +5,30 @@
     font-size: 16px;
     line-height: 1;
     color: #FFFFFF;
-    margin: 0 20px 20px;
-    min-width: 115px;
+    margin: 0 20px 20px 0;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu__item:hover {
+    opacity: .6;
 }
 
 .menu__item:last-of-type {
-    margin: 0;
+    margin-right: 130px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__item {
+        margin: 0;
+    }
+
+    .menu__item:last-of-type {
+        margin: 0;
+    }
 }
