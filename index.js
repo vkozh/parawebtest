@@ -24,7 +24,6 @@ fetch("https://mocki.io/v1/a5814d24-4e22-49fc-96d1-0e9ae2952afc")
   .then(({ articles }) => {
     articles.forEach((article) => {
       article.author = article.author == undefined ? NONAME : article.author;
-
       renderArticle(article);
       renderAuthorOption(article.author);
     });
@@ -64,7 +63,7 @@ const handleClickAuthor = (e) => {
   authorFilter.value = selectedAuthor;
 };
 
-const handleFilter = (e) => {
+const handleFilterAuthor = (e) => {
   filterAuthor(e.target.value);
 };
 
@@ -76,5 +75,11 @@ const filterAuthor = (selectedAuthor) => {
   filteringData.forEach((article) => renderArticle(article));
 };
 
-authorFilter.addEventListener("change", handleFilter);
+authorFilter.addEventListener("change", handleFilterAuthor);
 renderAuthorOption(SHOWALL);
+
+const flky = new Flickity(".carousel", {
+  prevNextButtons: false,
+  cellAlign: "left",
+  //   percentPosition: false,
+});

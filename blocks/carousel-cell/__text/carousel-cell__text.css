@@ -1,0 +1,10 @@
+.carousel-cell__text {
+    max-width: 925px;
+    margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-cell__text {
+        margin: 0 auto 35px;
+    }
+}

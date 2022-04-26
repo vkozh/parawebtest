@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Valeria Kozhevnikova" />
-    <title>Paraweb test</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <header class="header">
-        <div class="header__logo logo"></div>
-        <div class="header__contacts contacts">
-          <p class="contacts__item contacts__item_phone">8 800 000 00 00</p>
-          <p class="contacts__item contacts__item_email">sales@logo.ru</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Valeria Kozhevnikova" />
+  <title>Paraweb test</title>
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo logo"></div>
+      <div class="header__contacts contacts">
+        <p class="contacts__item contacts__item_phone">8 800 000 00 00</p>
+        <p class="contacts__item contacts__item_email">sales@logo.ru</p>
+      </div>
+    </header>
+    <div class="carousel">
+      <div class="carousel-cell">
+        <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+        <div class="carousel-cell__inner">
+          <div class="carousel-cell__text">
+            <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
+            <p class="carousel-cell__description">Мы предлагаем комплексные решения для всех уровней бизнеса: от
+              индивидуальных предпринимателей до крупных международных компаний. Более 20 000 клиентов по всему миру
+              доверяют нам.</p>
+          </div>
         </div>
-      </header>
-      <main class="main container__main">
-        <div class="slider"></div>
-        <section class="cards">
-          <div class="cards__filter">
-              <select class="filter" name="author" id="author"></select>
+      </div>
+      <div class="carousel-cell"> <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+        <div class="carousel-cell__inner">
+          <div class="carousel-cell__text">
+            <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
+            <p class="carousel-cell__description">Мы предлагаем комплексные решения для всех уровней бизнеса: от
+              индивидуальных предпринимателей до крупных международных компаний. Более 20 000 клиентов по всему миру
+              доверяют нам.</p>
           </div>
-          <div class="cards__container"></div>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="footer__logo"></div>
-        <ul class="menu footer__menu">
-          <li class="menu__item"><a href="">Решения</a></li>
-          <li class="menu__item"><a href="">Оборудование</a></li>
-          <li class="menu__item"><a href="">О компании</a></li>
-          <li class="menu__item"><a href="">Блог</a></li>
-        </ul>
-        <p class="header__info">© ООО «Лого», 2008—2022</p>
-        <p class="header__info">Лицензия на телематические услуги № 176267</p>
-        <ul class="footer__socials socials">
-          <li class="socials__item">
-            <a href="/" class="socials__item_tg"></a>
-          </li>
-          <li class="socials__item">
-            <a href="/" class="socials__item_vk"></a>
-          </li>
-          <li class="socials__item">
-            <a href="/" class="socials__item_tw"></a>
-          </li>
-          <li class="socials__item">
-            <a href="/" class="socials__item_hb"></a>
-          </li>
-        </ul>
-      </footer>
-
-      <template id="card">
-        <article class="element">
-          <h2 class="element__title"></h2>
-          <p class="element__description"></p>
-          <div class="element__badges">
-            <p class="element__badge element__badge_fill element__badge_author"></p>
-            <p class="element__badge element__badge_date"></div>
+        </div>
+      </div>
+      <div class="carousel-cell"> <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+        <div class="carousel-cell__inner">
+          <div class="carousel-cell__text">
+            <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
+            <p class="carousel-cell__description">Мы предлагаем комплексные решения для всех уровней бизнеса: от
+              индивидуальных предпринимателей до крупных международных компаний. Более 20 000 клиентов по всему миру
+              доверяют нам.</p>
           </div>
-        </article>
-      </template>
+        </div>
+      </div>
     </div>
+    <main class="main container__main">
+      <section class="cards">
+        <div class="cards__filter">
+          <select class="filter" name="author" id="author"></select>
+        </div>
+        <div class="cards__container"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo"></div>
+      <ul class="menu footer__menu">
+        <li class="menu__item"><a href="">Решения</a></li>
+        <li class="menu__item"><a href="">Оборудование</a></li>
+        <li class="menu__item"><a href="">О компании</a></li>
+        <li class="menu__item"><a href="">Блог</a></li>
+      </ul>
+      <p class="header__info">© ООО «Лого», 2008—2022</p>
+      <p class="header__info">Лицензия на телематические услуги № 176267</p>
+      <ul class="footer__socials socials">
+        <li class="socials__item">
+          <a href="/" class="socials__item_tg"></a>
+        </li>
+        <li class="socials__item">
+          <a href="/" class="socials__item_vk"></a>
+        </li>
+        <li class="socials__item">
+          <a href="/" class="socials__item_tw"></a>
+        </li>
+        <li class="socials__item">
+          <a href="/" class="socials__item_hb"></a>
+        </li>
+      </ul>
+    </footer>
 
-    <script src="./index.js"></script>
-  </body>
+    <template id="card">
+      <article class="element">
+        <h2 class="element__title"></h2>
+        <p class="element__description"></p>
+        <div class="element__badges">
+          <p class="element__badge element__badge_fill element__badge_author"></p>
+          <p class="element__badge element__badge_date">
+        </div>
+  </div>
+  </article>
+  </template>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
 </html>
