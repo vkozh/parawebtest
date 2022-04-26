@@ -17,6 +17,7 @@ const month = [
 ];
 const authors = new Set();
 const date = new Set();
+const showAll = "Show all";
 let articlesList = [];
 
 fetch("https://mocki.io/v1/a5814d24-4e22-49fc-96d1-0e9ae2952afc")
@@ -28,10 +29,7 @@ fetch("https://mocki.io/v1/a5814d24-4e22-49fc-96d1-0e9ae2952afc")
       date.add(article.publishedAt);
 
       renderArticle(article);
-
-      const option = document.createElement("option");
-      option.textContent = article.author;
-      authorFilter.appendChild(option);
+      renderAuthorOption(article.author);
     });
     articles;
   })
@@ -56,11 +54,20 @@ const renderArticle = (article) => {
   cardsContainer.appendChild(card);
 };
 
+const renderAuthorOption = (author) => {
+  const option = document.createElement("option");
+  option.textContent = author;
+  authorFilter.appendChild(option);
+};
+
 const handleFilter = (e) => {
-  const filteringData = articlesList.filter((c) => c.author === e.target.value);
+  const selectedAuthor = e.target.value;
   cardsContainer.innerHTML = "";
+  let filteringData = articlesList;
+  if (selectedAuthor !== showAll)
+    filteringData = articlesList.filter((c) => c.author === selectedAuthor);
   filteringData.forEach((article) => renderArticle(article));
-  console.log(filteringData);
 };
 
 authorFilter.addEventListener("change", handleFilter);
+renderAuthorOption(showAll);
