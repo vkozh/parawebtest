@@ -22,7 +22,26 @@
           <p class="contacts__item contacts__item_email">sales@logo.ru</p>
         </div>
       </header>
-      <main></main>
+      <main>
+        <div class="slider"></div>
+        <section class="cards">
+          <div class="cards__filter"></div>
+          <div class="cards__container">
+            <article class="element">
+              <h2 class="element__title">Заголовок карточки</h2>
+              <p class="element__description">
+                Задайте любой вопрос о продукте, его настройках, трудностях в
+                работе или неполадках. Поддержка работает 24/7, специалисты
+                ответят в течение 15 минут и помогут со всем разобраться.
+              </p>
+              <div class="element__badges">
+                <p class="element__badge element__badge_fill">Василий Пупкин</p>
+                <p class="element__badge">24 февраля 2022</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
       <footer class="footer">
         <div class="footer__logo"></div>
         <ul class="menu footer__menu">
@@ -48,6 +67,17 @@
           </li>
         </ul>
       </footer>
+
+      <template id="card">
+        <article class="element">
+          <h2 class="element__title"></h2>
+          <p class="element__description"></p>
+          <div class="element__info">
+            <p class="element__author"></p>
+            <div class="element__date"></div>
+          </div>
+        </article>
+      </template>
     </div>
 
     <script src="./index.js"></script>

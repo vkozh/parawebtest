@@ -19,3 +19,10 @@
 @import url(./blocks/socials/__item/_tg/socials__item_vk.css);
 @import url(./blocks/socials/__item/_tg/socials__item_tw.css);
 @import url(./blocks/socials/__item/_tg/socials__item_hb.css);
+
+@import url(./blocks/element/element.css);
+@import url(./blocks/element/__title/element__title.css);
+@import url(./blocks/element/__description/element__description.css);
+@import url(./blocks/element/__badges/element__badges.css);
+@import url(./blocks/element/__badge/element__badge.css);
+@import url(./blocks/element/__badge/_fill/element__badge_fill.css);

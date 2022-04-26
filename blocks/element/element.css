@@ -1,0 +1,5 @@
+.element {
+    border: 1px solid #E8E8E8;
+    max-width: 300px;
+    box-sizing: border-box;
+}
