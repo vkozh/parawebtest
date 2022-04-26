@@ -1,0 +1,19 @@
+.header__info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.5;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .header__info {
+        max-height: 390px;
+        justify-content: space-between;
+        order: 5;
+    }
+}

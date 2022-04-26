@@ -1,0 +1,15 @@
+.carousel-cell__description {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #FFF;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-cell__description {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,15 @@
+.footer__logo {
+    background-image: url(../../../images/logo_white.svg);
+    background-size: 200px 86px;
+    width: 200px;
+    height: 86px;
+    margin: 0 0 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__logo {
+        background-size: 93px 50px;
+        width: 93px;
+        height: 50px;
+    }
+}

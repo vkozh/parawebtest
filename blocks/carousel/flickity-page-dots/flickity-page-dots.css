@@ -1,0 +1,10 @@
+.carousel .flickity-page-dots {
+    bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel .flickity-page-dots {
+        bottom: 16px;
+    }
+
+}

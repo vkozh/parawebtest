@@ -1,0 +1,20 @@
+.element__badge {
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0 8px;
+    min-height: 20px;
+    margin: 0 10px 10px 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E8E8E8;
+}
+
+.element__badge:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,13 @@
+.carousel .flickity-page-dots .dot {
+    width: 16px;
+    height: 3px;
+    border-radius: 1px;
+    opacity: .3;
+    background-color: #fff;
+    margin: 0 4px 0 0;
+    transition: all .4s ease;
+}
+
+.carousel .flickity-page-dots .dot:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .contacts__item_email {
+        background-image: url(../../../../images/email.svg);
+        background-size: 28px 22px;
+        background-repeat: no-repeat;
+        width: 28px;
+        height: 22px;
+    }
+}

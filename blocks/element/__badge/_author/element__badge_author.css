@@ -1,0 +1,9 @@
+.element__badge_author {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.element__badge_author:hover {
+    opacity: .8;
+}
