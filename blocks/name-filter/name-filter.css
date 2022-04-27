@@ -16,4 +16,12 @@
     background-position-x: calc(100% - 10px);
     background-position-y: 50%;
     cursor: pointer;
+    min-width: 285px;
+    min-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .name-filter {
+        width: 100%;
+    }
 }
