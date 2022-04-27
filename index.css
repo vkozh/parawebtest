@@ -2,6 +2,7 @@
 @import url(./blocks/container/__main/container__main.css);
 
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/__inner/header__inner.css);
 @import url(./blocks/header/__logo/header__logo.css);
 
 @import url(./blocks/contacts/contacts.css);
@@ -34,7 +35,13 @@
 @import url(./blocks/cards/__container/cards__container.css);
 @import url(./blocks/cards/__filter/cards__filter.css);
 
-@import url(./blocks/filter/filter.css);
+@import url(./blocks/name-filter/name-filter.css);
+@import url(./blocks/date-filter/date-filter.css);
+@import url(./blocks/date-filter/__inner/date-filter__inner.css);
+@import url(./blocks/date-filter/__container/date-filter__container.css);
+@import url(./blocks/date-filter/__label/date-filter__label.css);
+@import url(./blocks/date-filter/__fake-input/date-filter__fake-input.css);
+@import url(./blocks/date-filter/__input/date-filter__input.css);
 
 @import url(./blocks/element/element.css);
 @import url(./blocks/element/__title/element__title.css);
