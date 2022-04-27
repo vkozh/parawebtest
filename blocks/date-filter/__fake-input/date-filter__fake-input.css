@@ -1,0 +1,19 @@
+.date-filter__fake-input {
+    border: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    padding: 0 10px;
+    min-height: 38px;
+    min-width: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .date-filter__fake-input {
+        flex-grow: 1;
+    }
+}

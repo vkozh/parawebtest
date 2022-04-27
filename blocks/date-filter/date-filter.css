@@ -1,0 +1,10 @@
+.date-filter {
+    display: flex;
+    grid-column: 2/4;
+}
+
+@media screen and (max-width: 768px) {
+    .date-filter {
+        width: 100%;
+    }
+}

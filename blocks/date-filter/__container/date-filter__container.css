@@ -1,0 +1,11 @@
+.date-filter__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .date-filter__container {
+        width: 100%;
+    }
+}

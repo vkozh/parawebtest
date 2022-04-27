@@ -17,10 +17,12 @@
 <body>
   <div class="container">
     <header class="header">
-      <div class="header__logo logo"></div>
-      <div class="header__contacts contacts">
-        <p class="contacts__item contacts__item_phone">8 800 000 00 00</p>
-        <p class="contacts__item contacts__item_email">sales@logo.ru</p>
+      <div class="header__inner">
+        <div class="header__logo logo"></div>
+        <div class="header__contacts contacts">
+          <p class="contacts__item contacts__item_phone">8 800 000 00 00</p>
+          <p class="contacts__item contacts__item_email">sales@logo.ru</p>
+        </div>
       </div>
     </header>
     <div class="carousel">
@@ -59,7 +61,21 @@
     <main class="main container__main">
       <section class="cards">
         <div class="cards__filter">
-          <select class="filter" name="author" id="author"></select>
+          <select class="name-filter" name="author" id="author"></select>
+          <div class="date-filter">
+            <div class="date-filter__inner">
+              <div class="date-filter__container">
+                <label class="date-filter__label" for="date-from-filter-fake">From</label>
+                <input class="date-filter__fake-input" id="date-from-filter-fake" type="text">
+                <input type="date" class="date-filter__input date-filter__input-from">
+              </div>
+              <div class="date-filter__container">
+                <label class="date-filter__label" for="date-to-filter-fake">~&nbsp;To</label>
+                <input class="date-filter__fake-input" id="date-to-filter-fake" type="text">
+                <input type="date" class="date-filter__input date-filter__input-to">
+              </div>
+            </div>
+          </div>
         </div>
         <div class="cards__container"></div>
       </section>
