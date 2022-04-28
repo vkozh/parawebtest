@@ -21,7 +21,7 @@ Page: https://vkozh.github.io/parawebtest/
 - CSS
 - JavaScript
 - Library flickity.js
-  <!-- - NPM -->
+- Webpack
   <!-- - SCSS -->
 
 ## TO DO
