@@ -1,0 +1,9 @@
+.footer__info_license {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__info_license {
+        display: block;
+    }
+}

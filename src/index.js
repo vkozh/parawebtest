@@ -1,3 +1,7 @@
+import "../node_modules/flickity/dist/flickity.min.css";
+import "./index.css";
+let Flickity = require("flickity");
+
 const cardTemplate = document.querySelector("#card");
 const cardsContainer = document.querySelector(".cards__container");
 const authorFilter = document.querySelector(".name-filter");
@@ -57,7 +61,6 @@ fetch("https://mocki.io/v1/a5814d24-4e22-49fc-96d1-0e9ae2952afc")
       renderArticle(article);
     });
     renderAuthorOptions(authors);
-    actualArticlesList = articles;
     articlesList = articles;
   })
   .catch((error) => console.log(error));

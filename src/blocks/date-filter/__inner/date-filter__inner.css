@@ -4,6 +4,13 @@
     display: flex;
 }
 
+@media screen and (max-width: 360px) {
+    .date-filter__inner {
+        border: none;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .date-filter__inner {
         width: 100%;

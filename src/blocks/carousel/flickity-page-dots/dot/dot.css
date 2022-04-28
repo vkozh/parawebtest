@@ -1,4 +1,4 @@
-.carousel .flickity-page-dots .dot {
+.flickity-page-dots .flickity-page-dot {
     width: 16px;
     height: 3px;
     border-radius: 1px;
@@ -8,6 +8,6 @@
     transition: all .4s ease;
 }
 
-.carousel .flickity-page-dots .dot:last-of-type {
+.flickity-page-dots.flickity-page-dot:last-of-type {
     margin-right: 0;
 }
