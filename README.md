@@ -22,8 +22,10 @@ Page: https://vkozh.github.io/parawebtest/
 - JavaScript
 - Library flickity.js
 - Webpack
+- Figma template
   <!-- - SCSS -->
 
 ## TO DO
 
 - Fix position of calendar under input
+- Convert into SCSS
