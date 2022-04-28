@@ -1,0 +1,4 @@
+.carousel>.flickity-page-dots>.flickity-page-dot.is-selected {
+    width: 24px;
+    opacity: 1;
+}

@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="Valeria Kozhevnikova" />
   <title>Paraweb test</title>
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <link rel="stylesheet" href="./index.css" />
+  <!-- <link rel="stylesheet" href="./vendor/normalize.css" /> -->
+  <!-- <link rel="stylesheet" href="./index.css" /> -->
   <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
+  <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     </header>
     <div class="carousel">
       <div class="carousel-cell">
-        <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+        <img class="carousel-cell__image" src="<%=require('./images/carousel1.png')%>" alt="">
         <div class="carousel-cell__inner">
           <div class="carousel-cell__text">
             <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
@@ -37,7 +37,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-cell"> <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+      <div class="carousel-cell"> <img class="carousel-cell__image" src="<%=require('./images/carousel1.png')%>" alt="">
         <div class="carousel-cell__inner">
           <div class="carousel-cell__text">
             <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-cell"> <img class="carousel-cell__image" src="./images/carousel1.png" alt="">
+      <div class="carousel-cell"> <img class="carousel-cell__image" src="<%=require('./images/carousel1.png')%>" alt="">
         <div class="carousel-cell__inner">
           <div class="carousel-cell__text">
             <h2 class="carousel-cell__title">IT-инфраструктура для бизнеса</h2>
@@ -88,8 +88,8 @@
         <li class="menu__item"><a href="">О компании</a></li>
         <li class="menu__item"><a href="">Блог</a></li>
       </ul>
-      <p class="header__info">© ООО «Лого», 2008—2022</p>
-      <p class="header__info">Лицензия на телематические услуги № 176267</p>
+      <p class="footer__info">© ООО «Лого», 2008—2022</p>
+      <p class="footer__info footer__info_license">Лицензия на телематические услуги № 176267</p>
       <ul class="footer__socials socials">
         <li class="socials__item">
           <a href="/" class="socials__item_tg"></a>
@@ -118,8 +118,6 @@
   </article>
   </template>
   </div>
-
-  <script src="./index.js"></script>
 </body>
 
 </html>
